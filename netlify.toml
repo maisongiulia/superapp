@@ -1,0 +1,6 @@
+# Config Netlify pour Maison Giulia
+# - publie le site statique (index.html a la racine)
+# - active la fonction serveur dans netlify/functions/
+[build]
+  publish = "."
+  functions = "netlify/functions"
